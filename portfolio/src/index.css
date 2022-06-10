@@ -107,6 +107,7 @@ img{
   }
   section  {
     margin-bottom: 6rem;
+    height: 200vh;
   }
 }
 /* media queries(medium devices) */

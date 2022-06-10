@@ -1,25 +1,28 @@
 import './App.css';
 import React from 'react';
 import Header from './components/header/Header';
-import nav from './components/nav/nav';
-import about from './components/about/about';
-import experience from './components/experience/experience';
+import Nav from './components/nav/Nav';
+import About from './components/about/About';
+import Experience from './components/experience/Experience';
 import portfolio from './components/portfolio/portfolio';
 import testimonials from './components/testimonials/testimonials';
-import contact from './components/contact/contact';
+import Contact from './components/contact/Contact';
 import footer from './components/footer/footer';
+import Services from './components/services/Services';
+
 
 function App() {
   return (
     <div>
      <Header></Header>
-     {/* <nav/>
-     <about></about>
-     <experience></experience>
+    <Nav></Nav>
+     <About></About>
+     <Experience></Experience>
      <portfolio></portfolio>
      <testimonials></testimonials>
-     <contact></contact>
-     <footer></footer> */}
+     <Contact></Contact>
+     <footer></footer> 
+     <Services></Services>
     </div>
   );
 }
