@@ -4,8 +4,8 @@ import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
-import portfolio from './components/portfolio/portfolio';
-import testimonials from './components/testimonials/testimonials';
+import Portfolio from './components/portfolio/Portfolio';
+import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import footer from './components/footer/footer';
 import Services from './components/services/Services';
@@ -18,11 +18,12 @@ function App() {
     <Nav></Nav>
      <About></About>
      <Experience></Experience>
-     <portfolio></portfolio>
-     <testimonials></testimonials>
-     <Contact></Contact>
+     <Portfolio></  Portfolio>
+     <Testimonials></Testimonials>
+     
      <footer></footer> 
      <Services></Services>
+     <Contact></Contact>
     </div>
   );
 }

@@ -19,9 +19,9 @@
 
   --transition:all 400ms ease;
 
-  --conatiner-widtg-lg:75%;
-  --conatiner-widtg-md:86%;
-  --conatiner-widtg-ms:90%;
+  --conatiner-width-lg:75%;
+  --conatiner-width-md:86%;
+  --conatiner-width-sm:90%;
 }
 
 html{
@@ -107,10 +107,10 @@ img{
   }
   section  {
     margin-bottom: 6rem;
-    height: 200vh;
+    height: 150vh;
   }
 }
-/* media queries(medium devices) */
+/* media queries(small devices) */
 @media screen and (max-width:600px){
   .container {
     width:var(--container-width-sm); 
