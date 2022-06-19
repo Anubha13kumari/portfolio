@@ -1,4 +1,4 @@
-.container.contact__container {
+.contact_container{
     width:58%;
     display: grid;
     grid-template-columns: 30% 58%;
@@ -9,13 +9,17 @@
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    /* display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 2.2rem;
+    margin-bottom: 2rem; */
 }
 
 .contact__option {
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 1.2rem;
-  text-align: centre;
+  text-align: center;
   border:1px solid transparent;
   transition: var(--transition);
 }
@@ -38,6 +42,12 @@
 /* ============FORM============= */
 
 .form{
+    display: flex;
+    flex-direction:column;
+    gap: 1.2rem;
+}
+
+.contact__action {
     display: flex;
     flex-direction:column;
     gap: 1.2rem;

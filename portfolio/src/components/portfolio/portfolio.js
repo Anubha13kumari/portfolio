@@ -10,7 +10,7 @@ const Portfolio = () => {
       <h5>My recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className='container portfolio__container'></div>
+      <div className='container portfolio__container'>
       <article className='portfolio__items'>
         <div className='portfolio__items-image'>
          <img src={IMG1} alt=""></img>
@@ -43,6 +43,7 @@ const Portfolio = () => {
           <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn btn-primary' target="_blank">Live demo</a>
           </div>
         </article>
+        </div>
       </section>
   )
 }

@@ -24,9 +24,9 @@
 .portfolio__items-image {
     border-radius:1.5rem;
     overflow: hidden;
-    padding: 2rem;
-    padding-left: 10rem;
-    padding-right:10rem;
+    /* padding: 2rem; */
+    /* padding-left: 10rem;
+    padding-right:10rem; */
 }
 .portfolio__items h3{
     margin:1.2rem 0 2rem;

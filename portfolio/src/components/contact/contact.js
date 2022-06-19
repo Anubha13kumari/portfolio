@@ -24,7 +24,7 @@ const Contact = () => {
       <h5>Get In Touch</h5>
       <h2>Contact ME</h2>
 
-      <div className='container contant_container'>
+      <div className='container contact_container'>
         <div className='contact__options'>
           <article className='contact__option'>
           <FiMail className='contact__option-icon'></FiMail>
@@ -50,7 +50,7 @@ const Contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTION */}
-        <form action='' ref={form} onSubmit={sendEmail}>
+        <form action='' ref={form} onSubmit={sendEmail} className='contact__action'>
           <input type="text" name='name' placeholder='Your full name' required></input>
           <input type="email" name='email' placeholder='Your email' required></input>
           <textarea name="message" id="" cols="30" rows="7" placeholder='Your message' requirednh></textarea>
