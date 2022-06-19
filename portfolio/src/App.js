@@ -7,7 +7,7 @@ import Experience from './components/experience/Experience';
 import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
-import footer from './components/footer/footer';
+import Footer from './components/footer/Footer';
 import Services from './components/services/Services';
 
 
@@ -20,10 +20,9 @@ function App() {
      <Experience></Experience>
      <Portfolio></  Portfolio>
      <Testimonials></Testimonials>
-     
-     <footer></footer> 
-     <Services></Services>
+      <Services></Services>
      <Contact></Contact>
+     <Footer></Footer> 
     </div>
   );
 }
