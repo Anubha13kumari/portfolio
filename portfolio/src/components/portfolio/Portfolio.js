@@ -17,8 +17,8 @@ const Portfolio = () => {
         </div>
           <h3>This is a portfolio items title</h3>
           <div className='portfolio__items-cta'>
-          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn'target="_blank">Github</a>
-          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn btn-primary' target="_blank">Live demo</a>
+          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn'target="_blank" rel="noreferrer">Github</a>
+          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn btn-primary' target="_blank" rel="noreferrer">Live demo</a>
           </div>
         </article>
 
@@ -28,8 +28,8 @@ const Portfolio = () => {
         </div>
           <h3>This is a portfolio items title</h3>
           <div className='portfolio__items-cta'>
-          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn'target="_blank">Github</a>
-          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn btn-primary' target="_blank">Live demo</a>
+          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn'target="_blank" rel="noreferrer">Github</a>
+          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn btn-primary' target="_blank" rel="noreferrer">Live demo</a>
           </div>
        </article>
 
@@ -39,8 +39,8 @@ const Portfolio = () => {
         </div>
           <h3>This is a portfolio items title</h3>
           <div className='portfolio__items-cta'>
-          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn'target="_blank">Github</a>
-          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn btn-primary' target="_blank">Live demo</a>
+          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn'target="_blank" rel="noreferrer">Github</a>
+          <a href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator" className='btn btn-primary' target="_blank" rel="noreferrer">Live demo</a>
           </div>
         </article>
         </div>
