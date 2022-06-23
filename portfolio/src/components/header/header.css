@@ -47,6 +47,15 @@ header{
      overflow: hidden;
      padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
+.me-img {
+   
+    background:linear-gradient(var(--color-primary),transparent);
+  
+    
+    border-radius: 12rem 12rem 0 0;
+
+
+}
 
 /* SCROLL DOWN */
 .scroll_down{
