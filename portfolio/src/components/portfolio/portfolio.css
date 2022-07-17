@@ -1,10 +1,7 @@
 .portfolio__container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 1fr 1fr;
     gap:2.5rem;
-    padding: 5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
 }
 
 .portfolio__items {
@@ -13,8 +10,6 @@
     border-radius:2rem;
     border:1px solid transparent;
     transition:var(--transition);
-    padding: 5rem;
-    padding-left: 5rem;
 }
 
 .portfolio__items:hover {
@@ -39,7 +34,7 @@
 /* MEDIA QUERIES(MEDIUM DEVICES) */
 @media screen and (max-width:1024px){
    .portfolio__container{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap:1.2rem;
    }
  }

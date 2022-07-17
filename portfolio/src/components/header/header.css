@@ -1,12 +1,12 @@
 header{
     height:100vh;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
     overflow: hidden;
 }
 .header_container {
     padding-top: 2rem;
     text-align: center;
-    height:100vh;
+    height:100%;  /* changes here. it was vh*/
     position: relative;
 }
 /* CTA */
@@ -25,7 +25,7 @@ header{
     gap:0.8rem;
     position: absolute;
     left:0;
-    
+    bottom: 3rem; /*added this*/
 }
 
 .header_socials::after {
@@ -48,10 +48,7 @@ header{
      padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 .me-img {
-   
-  
-    
-    border-radius: 12rem 12rem 0 0;
+   border-radius: 12rem 12rem 0 0;
 
 
 }
@@ -60,6 +57,7 @@ header{
 .scroll_down{
     position: absolute;
     right:-2.3rem;
+    bottom: 5rem;  /*added this*/
     transform:rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;

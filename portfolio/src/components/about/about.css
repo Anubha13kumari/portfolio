@@ -40,7 +40,7 @@
     border-color:var(--color-primary);
     cursor: default;
 }
-.abut__icon{
+.about__icon{
     color:var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
