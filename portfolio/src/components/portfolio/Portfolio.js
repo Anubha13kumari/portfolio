@@ -15,7 +15,7 @@ const Portfolio = () => {
           <div className="portfolio__items-image">
             <img src={IMG1} alt=""></img>
           </div>
-          <h3>This is a portfolio items title</h3>
+          <h3>CALCULATOR</h3>
           <div className="portfolio__items-cta">
             <a
               href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator"
@@ -26,7 +26,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator"
+              href="https://calculator-dusky-pi.vercel.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -40,10 +40,10 @@ const Portfolio = () => {
           <div className="portfolio__items-image">
             <img src={IMG2} alt=""></img>
           </div>
-          <h3>This is a portfolio items title</h3>
+          <h3>INSTAGRAM-CLONE</h3>
           <div className="portfolio__items-cta">
             <a
-              href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator"
+              href="https://github.com/Anubha13kumari/instagram-clone"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -51,7 +51,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator"
+              href="https://instagram-clone-five-tau.vercel.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -65,10 +65,10 @@ const Portfolio = () => {
           <div className="portfolio__items-image">
             <img src={IMG3} alt=""></img>
           </div>
-          <h3>This is a portfolio items title</h3>
+          <h3>MY PORTFOLIO</h3>
           <div className="portfolio__items-cta">
             <a
-              href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator"
+              href="https://github.com/Anubha13kumari/portfolio"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -76,7 +76,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator"
+              href="https://portfolio-nu-roan-65.vercel.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"

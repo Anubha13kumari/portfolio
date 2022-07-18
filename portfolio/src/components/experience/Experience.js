@@ -43,39 +43,39 @@ const Experience = () => {
           </div>
         </div>
         {/* end of frontend */}
-        <div className="experience_backend">
+        {/* <div className="experience_backend">
           <h3>Backend development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
+          <div className="experience__content"> */}
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>MongoDB</h4>
                 <small className="text-light">Experienced</small>
               </div>
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>PHP</h4>
                 <small className="text-light">Experienced</small>
               </div>
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>My SQL</h4>
                 <small className="text-light">Experienced</small>
               </div>
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>python</h4>
                 <small className="text-light">Experienced</small>
               </div>
-            </article>
-          </div>
-        </div>
+            </article> */}
+          {/* </div>
+        </div> */}
       </div>
     </section>
   );
