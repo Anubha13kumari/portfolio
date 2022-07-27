@@ -15,10 +15,10 @@ const Portfolio = () => {
           <div className="portfolio__items-image">
             <img src={IMG1} alt=""></img>
           </div>
-          <h3>CALCULATOR</h3>
+          <h3>AMAZON CLONE</h3>
           <div className="portfolio__items-cta">
             <a
-              href="https://github.com/Anubha13kumari/Calculator/tree/anubhaJS/react/calculator"
+              href="https://github.com/Anubha13kumari/amazon-clone"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -26,7 +26,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://calculator-dusky-pi.vercel.app/"
+              href="https://amazon-clone-psi-azure.vercel.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"

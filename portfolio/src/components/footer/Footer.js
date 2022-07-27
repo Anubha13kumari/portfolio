@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebookF } from "react-icons/fa";
-import { BsInstagram } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
+// import { MdEmail } from "react-icons/md";
 import { FaGithub  } from "react-icons/fa";
 
 const Footer = () => {
@@ -20,27 +20,27 @@ const Footer = () => {
         <li>
           <a href="#experience">Experience</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#services">Services</a>
-        </li>
+        </li> */}
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#testimonials">Testimonials</a>
-        </li>
+        </li> */}
         <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com">
-          <FaFacebookF />
+        <a href="https://www.linkedin.com/in/anubha-kumari-329753221/">
+          <FaLinkedin />
         </a>
-        <a href="https://instagram.com">
-          <BsInstagram />
-        </a>
+        {/* <a href="anubhamuz@gmail.com">
+          <MdEmail />
+        </a> */}
         <a href="https://github.com/Anubha13kumari">
         <FaGithub />
         </a>
