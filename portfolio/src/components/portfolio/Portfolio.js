@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
+import IMG4 from "../../assets/portfolio7.jpeg";
 
 const Portfolio = () => {
   return (
@@ -85,6 +86,32 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
+
+        <article className="portfolio__items">
+          <div className="portfolio__items-image">
+            <img src={IMG4} alt=""></img>
+          </div>
+          <h3>NETFLIX CLONE</h3>
+          <div className="portfolio__items-cta">
+            <a
+              href="https://github.com/Anubha13kumari/netflix-clone"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://netflix-clone-indol-chi.vercel.app/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live demo
+            </a>
+          </div>
+        </article>
+
       </div>
     </section>
   );
