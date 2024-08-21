@@ -4,6 +4,8 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio7.jpeg";
+import IMG5 from "../../assets/portfolio8.png";
+import IMG6 from "../../assets/portfolio9.jpeg";
 
 const Portfolio = () => {
   return (
@@ -111,6 +113,58 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
+
+
+        <article className="portfolio__items">
+          <div className="portfolio__items-image">
+            <img src={IMG5} alt=""></img>
+          </div>
+          <h3>SARKARI RESULT</h3>
+          <div className="portfolio__items-cta">
+            <a
+              href="https://github.com/erchandraprakash1999/website-design-14-aug"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://website-design-14-aug.vercel.app/ "
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__items">
+          <div className="portfolio__items-image">
+            <img src={IMG6} alt=""></img>
+          </div>
+          <h3>PIXER CLONE</h3>
+          <div className="portfolio__items-cta">
+            <a
+              href="https://github.com/erchandraprakash1999/website-design-5-aug"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://website-design-5-aug.vercel.app/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live demo
+            </a>
+          </div>
+        </article>
+
 
       </div>
     </section>
